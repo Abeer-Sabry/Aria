@@ -1,0 +1,25 @@
+.TEXT{
+    padding: 0;
+    text-align: center;
+    background-color: yellow;
+    position: relative;
+}
+.TEXT h1 span{
+    position: absolute;
+    animation: opacity 3s infinite;
+}
+.TEXT h1 span:nth-child(2){
+    animation-delay: 1s;
+}
+.TEXT h1 span:nth-child(2){
+    animation-delay: 2s;
+}
+
+@keyframes opacity{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
